@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xykj.springshiro.mapper.UserMapper">
+
+    <resultMap id="userResultMap" type="com.xykj.springshiro.entity.User">
+        <result column="uid" property="id"/>
+        <result column="username" property="username"/>
+        <result column="password" property="password"/>
+        <result column="salt" property="salt"/>
+        <collection property="roles" javaType="list" ofType="com.xykj.springshiro.entity.Role">
+            <result column="rid" property="id"/>
+            <result column="name" property="name"/>
+        </collection>
+    </resultMap>
+
+    <insert id="save" keyProperty="id" useGeneratedKeys="true" parameterType="com.xykj.springshiro.entity.User">
+        insert into t_user
+        values(#{id},#{username},#{password},#{salt})
+    </insert>
+
+    <select id="findUserByName" parameterType="java.lang.String" resultType="com.xykj.springshiro.entity.User">
+        select id,username,password,salt from t_user where username = #{username}
+    </select>
+
+    <select id="findUserRoleByName" parameterType="java.lang.String" resultMap="userResultMap">
+        select u.id as uid,u.username,r.`name`
+        from t_user u LEFT JOIN t_user_role ur
+        on u.id = ur.userid
+        LEFT JOIN t_role r
+        on ur.roleid = r.id
+        where u.username = #{username}
+    </select>
+
+    <select id="findUserPermission" parameterType="java.lang.String" resultType="com.xykj.springshiro.entity.Permission">
+        select p.id,p.`name`,p.url
+        from t_role r left join t_role_perms rp
+        on r.id = rp.roleid
+        LEFT JOIN t_perms p
+        on rp.permsid = p.id
+        where r.`name` = #{name}
+    </select>
+</mapper>

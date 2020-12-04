@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="/webjars/jquery/3.1.1/jquery.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div class="div1">
+        <table border="0" width="500px" frame="above" cellpadding="1" cellspacing="0" bgcolor="black" class="table">
+            <caption align="center">学生表</caption>
+            <thead>
+                <tr bgcolor="white"  class="theadTr">
+                    <th>id</th>
+                    <th>姓名</th>
+                    <th>性别</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr bgcolor="white" class="tbodyTr">
+                    <th>1</th>
+                    <th>小美</th>
+                    <th>女</th>
+                </tr>
+                <tr bgcolor="white">
+                    <th>2</th>
+                    <th>小明</th>
+                    <th>男</th>
+                </tr>
+                <tr bgcolor="white">
+                    <th>3</th>
+                    <th>小绝</th>
+                    <th>男</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <form action="" class="form">
+            <fieldset >
+                账号：<input type="text"  name="username" required="required" class="username"><br/>
+                密码：<input type="password" name="password" required="required" class="password"><br/>
+                <input type="file" accept="image/*" required="required" class="upload"><br/>
+                <input type="submit" name="submit" value="提交" class="submit" ><br/>
+                兴趣爱好:<input type="checkbox" name="hobby" value="football" class="hobby">足球
+                <input type="checkbox" name="hobby" value="basketball" class="hobby">篮球
+                <input type="checkbox" name="hobby" value="tennis" class="hobby">网球<br/>
+                <textarea name="" id="textarea" cols="30" rows="10" >
+                    我是一个文本框
+                </textarea><br/>
+                <label>兴趣爱好</label>
+                兴趣爱好：<select name="" id="select">
+                <option value="">请选择</option>
+                <optgroup label="体育"></optgroup>
+                    <option value="">篮球</option>
+                    <option value="">足球</option>
+                <optgroup label="电影"></optgroup>
+                    <option value="">这个杀手不太冷</option>
+                    <option value="">叶问4</option>
+                </select>
+                <button type="button" onclick="show()">点击</button>
+                <input type="reset" value="重置">
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+<script type="text/javascript">
+
+    window.onload=function (ev) {
+        var username = document.querySelector(".username");
+        username.innerHTML = "这是填写账号的";
+        username.value = "请输入账号";
+    }
+
+    function show() {
+
+        //var username = document.getElementsByName("username")[0].value;
+        var username  = $(".username").eq(0).val();
+        var password = document.getElementsByClassName("password")[0].value;
+        var ids = Array.from(document.querySelectorAll('input.hobby:checked')).map(function (el) { return el.value});
+        console.log("show展现1"+username);
+        console.log("show展现2"+password);
+        console.log("show展现3"+ids);
+        document.write(Date())
+    }
+</script>
+</html>
