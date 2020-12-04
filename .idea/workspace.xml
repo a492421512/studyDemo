@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fad275d-2945-4c00-b311-c8b50401903a" name="Default Changelist" comment="" />
+    <list default="true" id="5fad275d-2945-4c00-b311-c8b50401903a" name="Default Changelist" comment="添加备注" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -307,12 +307,24 @@
       <workItem from="1606808342172" duration="5439000" />
       <workItem from="1606872147350" duration="10732000" />
       <workItem from="1606957080343" duration="12509000" />
-      <workItem from="1607045373897" duration="9288000" />
+      <workItem from="1607045373897" duration="10153000" />
     </task>
+    <task id="LOCAL-00001" summary="添加备注">
+      <created>1607065133712</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607065133712</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加备注" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加备注" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1606812967752">
@@ -359,6 +371,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606811191771" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1607065148085">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607065148085" />
     <state x="499" y="255" width="922" height="642" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1606812905215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
