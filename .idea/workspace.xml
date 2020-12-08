@@ -3,8 +3,31 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="ALL" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fad275d-2945-4c00-b311-c8b50401903a" name="Default Changelist" comment="添加备注" />
+    <list default="true" id="5fad275d-2945-4c00-b311-c8b50401903a" name="Default Changelist" comment="测试提交">
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/com/xykj/juc/JUC/CallableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/com/xykj/juc/JUC/CountDownLatchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/com/xykj/juc/JUC/UnSafeSetDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/juc/src/main/java/com/xykj/juc/JUC/UnsafeListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc/src/main/java/com/xykj/juc/JUC/UnsafeListDemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +51,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="wm &lt;492421512@qq.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -58,7 +86,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../net_work" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -87,9 +115,9 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UnsafeListDemo">
-    <configuration name="Lock8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xykj.juc.JUC.Lock8" />
+  <component name="RunManager" selected="Application.CountDownLatchDemo">
+    <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xykj.juc.JUC.CallableDemo" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
@@ -101,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCrawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xykj.juc.crawler.TestCrawler" />
+    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xykj.juc.JUC.CountDownLatchDemo" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xykj.juc.crawler.*" />
+          <option name="PATTERN" value="com.xykj.juc.JUC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,8 +142,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xykj.juc.JUC.ThreadLockDemo" />
+    <configuration name="Lock8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xykj.juc.JUC.Lock8" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
@@ -153,15 +181,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,21 +209,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestCrawler" />
-      <item itemvalue="Application.ThreadLockDemo" />
       <item itemvalue="Application.ThreadOrderAccess" />
       <item itemvalue="Application.Lock8" />
+      <item itemvalue="Application.UnsafeListDemo" />
+      <item itemvalue="Application.CallableDemo" />
+      <item itemvalue="Application.CountDownLatchDemo" />
       <item itemvalue="Spring Boot.SpringshiroApplication" />
       <item itemvalue="Spring Boot.JucApplication" />
-      <item itemvalue="Application.UnsafeListDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountDownLatchDemo" />
+        <item itemvalue="Application.CallableDemo" />
         <item itemvalue="Application.UnsafeListDemo" />
         <item itemvalue="Application.Lock8" />
         <item itemvalue="Application.ThreadOrderAccess" />
-        <item itemvalue="Application.ThreadLockDemo" />
-        <item itemvalue="Application.TestCrawler" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +333,9 @@
       <workItem from="1606808342172" duration="5439000" />
       <workItem from="1606872147350" duration="10732000" />
       <workItem from="1606957080343" duration="12509000" />
-      <workItem from="1607045373897" duration="10153000" />
+      <workItem from="1607045373897" duration="13150000" />
+      <workItem from="1607303014641" duration="1407000" />
+      <workItem from="1607390946013" duration="7585000" />
     </task>
     <task id="LOCAL-00001" summary="添加备注">
       <created>1607065133712</created>
@@ -316,41 +344,61 @@
       <option name="project" value="LOCAL" />
       <updated>1607065133712</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="测试提交">
+      <created>1607065359919</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607065359919</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加备注" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加备注" />
+    <MESSAGE value="测试提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试提交" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1606812967752">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1607391016858">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606812967752" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1607063627572">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607391016858" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1607414593148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607063627572" />
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1607049633683">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607414593148" />
+    <state width="1877" height="307" key="GridCell.Tab.0.bottom" timestamp="1607414601121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607049633683" />
-    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1607049633682">
+    <state width="1877" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607414601121" />
+    <state width="1877" height="307" key="GridCell.Tab.0.center" timestamp="1607414601120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607049633682" />
-    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1607049633682">
+    <state width="1877" height="307" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607414601120" />
+    <state width="1877" height="307" key="GridCell.Tab.0.left" timestamp="1607414601120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607049633682" />
-    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1607049633682">
+    <state width="1877" height="307" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607414601120" />
+    <state width="1877" height="307" key="GridCell.Tab.0.right" timestamp="1607414601120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607049633682" />
+    <state width="1877" height="307" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607414601120" />
     <state width="1877" height="278" key="GridCell.Tab.1.bottom" timestamp="1606813094848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -367,6 +415,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="278" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606813094848" />
+    <state x="830" y="239" key="RollbackChangesDialog" timestamp="1607065339324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="830" y="239" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607065339324" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1606811191771">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -383,6 +435,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="129" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606811950999" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607392870282">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607392870282" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
