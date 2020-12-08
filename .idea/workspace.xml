@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fad275d-2945-4c00-b311-c8b50401903a" name="Default Changelist" comment="" />
+    <list default="true" id="5fad275d-2945-4c00-b311-c8b50401903a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/juc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/juc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/juc/src/main/java/com/xykj/juc/JUC/UnsafeListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc/src/main/java/com/xykj/juc/JUC/UnsafeListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/juc/src/main/java/com/xykj/juc/crawler/TestCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc/src/main/java/com/xykj/juc/crawler/TestCrawler.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,9 +37,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="E:\maven-3.6.3\repository" />
-        <option name="mavenHome" value="E:\maven-3.6.3" />
-        <option name="userSettingsFile" value="E:\maven-3.6.3\conf\settings.xml" />
+        <option name="localRepository" value="D:\maven-3.6\repository" />
+        <option name="mavenHome" value="D:\maven-3.6" />
+        <option name="userSettingsFile" value="D:\maven-3.6\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -56,15 +60,16 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -183,21 +188,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Lock8" />
       <item itemvalue="Application.TestCrawler" />
       <item itemvalue="Application.ThreadLockDemo" />
       <item itemvalue="Application.ThreadOrderAccess" />
-      <item itemvalue="Application.Lock8" />
-      <item itemvalue="Spring Boot.SpringshiroApplication" />
-      <item itemvalue="Spring Boot.JucApplication" />
       <item itemvalue="Application.UnsafeListDemo" />
+      <item itemvalue="Spring Boot.JucApplication" />
+      <item itemvalue="Spring Boot.SpringshiroApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.UnsafeListDemo" />
-        <item itemvalue="Application.Lock8" />
         <item itemvalue="Application.ThreadOrderAccess" />
         <item itemvalue="Application.ThreadLockDemo" />
         <item itemvalue="Application.TestCrawler" />
+        <item itemvalue="Application.Lock8" />
       </list>
     </recent_temporary>
   </component>
@@ -308,6 +313,9 @@
       <workItem from="1606872147350" duration="10732000" />
       <workItem from="1606957080343" duration="12509000" />
       <workItem from="1607045373897" duration="9288000" />
+      <workItem from="1607179947851" duration="3378000" />
+      <workItem from="1607231638323" duration="4362000" />
+      <workItem from="1607427495027" duration="221000" />
     </task>
     <servers />
   </component>
@@ -315,30 +323,38 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="586" y="198" key="#Inspections" timestamp="1607234117192">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1607234117192" />
     <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1606812967752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606812967752" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1607063627572">
+    <state x="558" y="82" key="CommitChangelistDialog2" timestamp="1607427665504">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607063627572" />
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1607049633683">
+    <state x="558" y="82" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607427665504" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1607233724263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607049633683" />
-    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1607049633682">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607233724263" />
+    <state width="1877" height="788" key="GridCell.Tab.0.bottom" timestamp="1607236697569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607049633682" />
-    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1607049633682">
+    <state width="1877" height="788" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607236697569" />
+    <state width="1877" height="788" key="GridCell.Tab.0.center" timestamp="1607236697568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607049633682" />
-    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1607049633682">
+    <state width="1877" height="788" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607236697568" />
+    <state width="1877" height="788" key="GridCell.Tab.0.left" timestamp="1607236697568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607049633682" />
+    <state width="1877" height="788" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607236697568" />
+    <state width="1877" height="788" key="GridCell.Tab.0.right" timestamp="1607236697569">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="788" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607236697569" />
     <state width="1877" height="278" key="GridCell.Tab.1.bottom" timestamp="1606813094848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -355,10 +371,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="278" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606813094848" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1606811191771">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1607427717524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606811191771" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607427717524" />
     <state x="499" y="255" width="922" height="642" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1606812905215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -367,6 +383,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="129" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606811950999" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607231722873">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607231722873" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
