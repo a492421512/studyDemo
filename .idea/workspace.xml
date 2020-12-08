@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fad275d-2945-4c00-b311-c8b50401903a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/juc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/juc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juc/src/main/java/com/xykj/juc/JUC/UnsafeListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc/src/main/java/com/xykj/juc/JUC/UnsafeListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juc/src/main/java/com/xykj/juc/crawler/TestCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc/src/main/java/com/xykj/juc/crawler/TestCrawler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/com/xykj/juc/JUC/CyclicBarrierDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/com/xykj/juc/JUC/SemaphoreDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -92,9 +91,9 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UnsafeListDemo">
-    <configuration name="Lock8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xykj.juc.JUC.Lock8" />
+  <component name="RunManager" selected="Application.SemaphoreDemo">
+    <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xykj.juc.JUC.CyclicBarrierDemo" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
@@ -106,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCrawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xykj.juc.crawler.TestCrawler" />
+    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xykj.juc.JUC.SemaphoreDemo" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xykj.juc.crawler.*" />
+          <option name="PATTERN" value="com.xykj.juc.JUC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,21 +187,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Lock8" />
-      <item itemvalue="Application.TestCrawler" />
       <item itemvalue="Application.ThreadLockDemo" />
       <item itemvalue="Application.ThreadOrderAccess" />
       <item itemvalue="Application.UnsafeListDemo" />
       <item itemvalue="Spring Boot.JucApplication" />
       <item itemvalue="Spring Boot.SpringshiroApplication" />
+      <item itemvalue="Application.CyclicBarrierDemo" />
+      <item itemvalue="Application.SemaphoreDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SemaphoreDemo" />
+        <item itemvalue="Application.CyclicBarrierDemo" />
         <item itemvalue="Application.UnsafeListDemo" />
         <item itemvalue="Application.ThreadOrderAccess" />
         <item itemvalue="Application.ThreadLockDemo" />
-        <item itemvalue="Application.TestCrawler" />
-        <item itemvalue="Application.Lock8" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +314,7 @@
       <workItem from="1607045373897" duration="9288000" />
       <workItem from="1607179947851" duration="3378000" />
       <workItem from="1607231638323" duration="4362000" />
-      <workItem from="1607427495027" duration="221000" />
+      <workItem from="1607427495027" duration="3683000" />
     </task>
     <servers />
   </component>
@@ -339,22 +338,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607233724263" />
-    <state width="1877" height="788" key="GridCell.Tab.0.bottom" timestamp="1607236697569">
+    <state width="1877" height="384" key="GridCell.Tab.0.bottom" timestamp="1607428926144">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="788" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607236697569" />
-    <state width="1877" height="788" key="GridCell.Tab.0.center" timestamp="1607236697568">
+    <state width="1877" height="384" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607428926144" />
+    <state width="1877" height="384" key="GridCell.Tab.0.center" timestamp="1607428926144">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="788" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607236697568" />
-    <state width="1877" height="788" key="GridCell.Tab.0.left" timestamp="1607236697568">
+    <state width="1877" height="384" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607428926144" />
+    <state width="1877" height="384" key="GridCell.Tab.0.left" timestamp="1607428926144">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="788" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607236697568" />
-    <state width="1877" height="788" key="GridCell.Tab.0.right" timestamp="1607236697569">
+    <state width="1877" height="384" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607428926144" />
+    <state width="1877" height="384" key="GridCell.Tab.0.right" timestamp="1607428926144">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="788" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607236697569" />
+    <state width="1877" height="384" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607428926144" />
     <state width="1877" height="278" key="GridCell.Tab.1.bottom" timestamp="1606813094848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -371,10 +370,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="278" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606813094848" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1607427717524">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1607428720492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607427717524" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607428720492" />
     <state x="499" y="255" width="922" height="642" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1606812905215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
