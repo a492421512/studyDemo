@@ -1,8 +1,8 @@
 package com.xykj.juc.JUC;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.UUID;
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.CopyOnWriteArraySet;
 
 /**
  * list为什么是线程不安全的
@@ -23,14 +23,39 @@ import java.util.UUID;
  */
 public class UnsafeListDemo {
     public static void main(String[] args) {
-        List<String> list = new ArrayList<>();
+       /* List<String> list = new ArrayList<>();
 
         for (int i = 0; i < 30; i++) {
             new Thread(() -> {
                 list.add(UUID.randomUUID().toString().substring(0, 8));
                 System.out.println(list);
             }, String.valueOf(i)).start();
+        }*/
+        new UnsafeListDemo().unSafeHashMap();
+
+    }
+
+    //HashSet也是线程不安全的
+    public  void unSafeSet(){
+        Set<String> set = new CopyOnWriteArraySet<>();//Collections.synchronizedSet(new HashSet<>());//new HashSet<>();
+        new HashSet<>();
+        for (int i = 0; i < 3; i++) {
+            new Thread(()->{
+                set.add(UUID.randomUUID().toString().substring(0, 8));
+                System.out.println(set);
+            },"C").start();
         }
+    }
+
+    public void unSafeHashMap(){
+        Map<String,String> map = new ConcurrentHashMap<>();//Collections.synchronizedMap(new HashMap<>());//new HashMap<>(1);
+        for (int i = 0; i < 30; i++) {
+            new Thread(()->{
+                map.put(Thread.currentThread().getName(),UUID.randomUUID().toString().substring(0, 8));
+                System.out.println(map);
+            }).start();
+        }
+
     }
 }
 
